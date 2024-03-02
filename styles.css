@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+.container {
+    text-align: left;
+    margin: 1vw;
+}
+.main-title {
+    color:rgb(245, 245, 245);
+    font-size: 5vw;
+    margin-left: 4vw;
+}
+.subtitle {
+    color: rgb(127, 15, 255);
+    font-size:3vw;
+    margin-top: 0.5vw;
+    margin-left: 10vw;
+}
+.iphone-mockup {
+    position: absolute; /* Position the mockup image absolutely within the container */
+    top: 20vw; /* Adjust top position as needed */
+    left: 10vw; /* Adjust left position as needed */
+    width: 30vw; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
