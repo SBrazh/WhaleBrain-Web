@@ -313,7 +313,7 @@ body {
 }
 
 #section4 {
-    margin-top: 48em;
+    margin-top: 45vw;
 }
 
 .section4-title {
@@ -324,7 +324,7 @@ body {
 }
 
 .section4-subtitle {
-    color: rgb(245, 245, 245);
+    color: rgb(255, 255, 255);
     font-size: 1.9vw;
     margin-top: 0.1vw;
     margin-left: 12vw;
@@ -338,17 +338,17 @@ body {
     font-size: 1.8vw;
     text-align: left;
     margin-left: 4vw;
-    padding: 10px;
-    border-radius: 30px;
+    padding: 1vw;
+    border-radius: 30vw;
     width: 27vw;
-    height: 3vw;
+    height: -20vw;
     display: flex;
     align-items: right;
     
 }
 
 .email {
-    margin-top: -.1vw;
+    margin-top: 12vw;
     border: 2px solid transparent;
     border-image: repeating-linear-gradient(45deg, rgb(127, 15, 255), rgb(127, 15, 255) 10px, transparent 10px, transparent 20px);
     border-image-slice: 1;
@@ -368,24 +368,24 @@ body {
     width: 6vw;
     height: auto;
     position: absolute;
-    top: 11vw;
-    left: 9.2vw;
+    top: 29.5vw;
+    left: 9.5vw;
 }
 .email-logo {
     width: 4.7vw;
     height: auto;
     position: absolute;
-    top: 5vw;
-    left: 9.9vw;
+    top: 23.4vw;
+    left: 10.4vw;
 }
 #contact-section {
     margin-top: 3vw; /* Adjust as needed to create space between sections */
 }
 
 #contact-form {
-    max-width: 24vw;
-    margin-top: -15vw;
-    margin-left: 50vw;
+    max-width: 33vw;
+    margin-top: -17vw;
+    margin-left: 45vw;
     background-color: #2c2c2e; /* Form background color */
     padding: 4vw;
     border-radius: 10px;
@@ -401,11 +401,11 @@ label {
 
 input, textarea {
     width: 100%;
-    padding: 0.5em;
-    margin-top: 0.5em;
-    font-size: 1em;
-    border: 1px solid #6e0eb5; /* Form element border color */
-    border-radius: 5px;
+    padding: 0.3vw;
+    margin-top: .1vw;
+    font-size: 1vw;
+    border: .1vw solid #6e0eb5; /* Form element border color */
+    border-radius: .9vw;
     background-color: #3c3c3e; /* Form element background color */
     color: rgb(245, 245, 245);
 }
@@ -441,23 +441,27 @@ button:hover {
     }
 
     .circle {
-        width: 80vw;
-        left: 10vw;
+        width: 60vw;
+        left: 40vw;
+        top: 30vw;
     }
 
     .iphone-mockup {
-        width: 70vw;
-        left: 15vw;
+        width: 30vw;
+        left: 55vw;
+        top: 27vw;
     }
 
     .iphone2 {
-        width: 60vw;
-        left: 20vw;
+        width: 20vw;
+        left: 15vw;
+        top: 27vw;
     }
 
     .shade {
-        width: 150vw;
-        left: -40vw;
+        width: 90vw;
+        left: 70vw;
+        top:22vw;
     }
 
     .tg-button {
@@ -468,7 +472,7 @@ button:hover {
     .section2-title {
         font-size: 6vw;
         margin-left: 4vw;
-        margin-top: 1vw;
+        margin-top: 50vw;
     }
 
     .section2-subtitle {
@@ -478,46 +482,100 @@ button:hover {
     }
 
     .tg-button {
-        margin-top: 3vw;
-        margin-left: 5vw;
+        margin-top: 20vw;
+        margin-left: 55vw;
     }
 
     .section3-title {
         font-size: 6vw;
-        margin-left: 20vw;
-        margin-top: 1vw;
+        margin-left: 31vw;
+        margin-top: 25vw;
     }
 
     .section3-subtitle {
-        font-size: 3vw;
-        margin-left: 6vw;
-        width: 70vw;
+        font-size: 2.8vw;
+        margin-left: 9vw;
+        width: 80vw;
     }
 
     .box1,
-    .box2,
+    .box2   {
+        width: 27vw;
+        top: 33vw;
+        border-radius:2.5vw;
+    }
     .box3,
     .box4,
     .box5 {
-        width: 70vw;
-        margin-left: 5vw;
+        width: 27vw;
+        top: 52vw;
+        border-radius:2.5vw;
     }
+    .box1   {
+        left: -3vw;
+    }
+    .box2   {
+        left: 28vw;
+    }
+    .box3   {
+        left: -17vw;
+    }
+    .box4   {
+        left: 13.95vw;
+    }
+    .box5   {
+        left: 45vw;
+    }
+    
+    .box1-header,
+    .box2-header,
+    .box3-header,
+    .box4-header,
+    .box5-header {
+            margin-top: 1.5vw; 
+            margin-right:2.2vw;
+            
+    }
+    .box1-subheader,
+    .box2-subheader,
+    .box3-subheader,
+    .box4-subheader,
+    .box5-subheader {
+            margin-top: 0.7vw; 
+            margin-right:.2vw;
+            border-radius:10vw;
+            width: 25.7vw;
+    }
+    .i1,.i2,.i3,.i4,.i5{
 
+        left:1vw;
+        top:1.6vw;
+    }    
     .email,
     .telegram {
-        margin-left: 5vw;
-        width: 70vw;
+        left: 10vw;
+        width: 28vw;
+        top:10vw;
     }
-
     .section4-title {
         font-size: 6vw;
         margin-left: 4vw;
-        margin-top: 1vw;
+        margin-top: 50vw;
     }
 
     .section4-subtitle {
         font-size: 3vw;
         margin-left: 6vw;
         width: 70vw;
+    }
+    .tg-logo {
+        top:32.1vw;
+    }
+    .email-logo {
+        top:40vw;
+    }
+    #contact-form {
+        left:10vw;
+        width:100vw;
     }
 }
