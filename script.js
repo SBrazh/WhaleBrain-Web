@@ -1,7 +1,4 @@
-//document.addEventListener('DOMContentLoaded', function () {
-  //  var myButton = document.getElementById('myButton');
+document.getElementById('tg-button-link').addEventListener('click', function() {
+  window.location.href = 'https://t.me/whalebrain_bot';
+});
 
-    //myButton.addEventListener('click', function () {
-      //  alert('Button clicked!');
-  //  });
-//});

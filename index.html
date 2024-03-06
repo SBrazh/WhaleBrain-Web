@@ -8,18 +8,94 @@
 </head>
 <body>
 
-    <div class="container">
-        <h1 class="main-title">WHALEBRAIN</h1>
-        <p class="subtitle">Make Smart Investments</p>
-        <img class="iphone-mockup" src="//Users/sevastyanbrazhnikov/Desktop/WB Website/WB.png" alt="iPhone Mockup">
-    </div>echo "# WB" >> README.md
-    git init
-    git add README.md
-    git commit -m "first commit"
-    git branch -M main
-    git remote add origin https://github.com/SBrazh/WB.git
-    git push -u origin main
+    <section class="landing-section" id="section1">
+        <div class="container">
+            <h1 class="main-title">WHALEBRAIN</h1>
+            <p class="subtitle">Make Smart Investments</p>
+            <img class="iphone-mockup" src="WB.svg" alt="iPhone Mockup">
+            <img class="circle" src="Circle.svg" alt="Circle">
+        </div>
+    </section>
 
+    <section class="section2" id="section2">
+        <div class="container">
+            <h1 class="section2-title">Convenience of <span>One Click</span></h1>
+            <p class="section2-subtitle">Stay up-to-date with a quick message from <span>WhaleBrain</span>, as well as the on-demand services</p>
+            <a href="https://t.me/whalebrain_bot" target="_blank" id="tg-button-link">
+                <button class="tg-button">Go to <br>WHALEBRAIN</button>
+            </a>
+            <img class="iphone2" src="iPhone2.svg" alt="iphone 2">
+            <img class="shade" src="Shade.svg" alt="shade">
+        </div>
+    </section>
+
+    <section class="section3" id="section3">
+        <div class="container">
+            <h1 class="section3-title">Our <span>Services</span> </h1>
+            <p class="section3-subtitle">WhaleBrain allows you to track blockchain addresses, monitor transactions, and ​access real- time news and prices. Additionally, Our AI Assistant offers insightful ​responses to users’ crypto inquiries,  as well as on-demand coin analyses.</p>
+            <div class="box1">
+                <p class="box1-header"><span>TRACK</span> COIN AND <br>​WALLET <span>ACTIVITY</span> </p>
+                <p class="box1-subheader">WhaleBrain sends prompt notifications for ​significant coin transactions and wallet activities, ​keeping you informed about developments </p>
+                <img class="i1" src="1.svg" alt="i1">
+            </div>
+            <div class="box2">
+                <p class="box2-header"><span>TALK TO</span> CRYPTO​ <br><span>AI </span>ASSISTANT </p>
+                <p class="box2-subheader">WhaleBrain AI Assistant is crafted to provide ​insightful answers to all your cryptocurrency ​inquiries </p>
+                <img class="i2" src="2.svg" alt="i2">
+            </div>
+            <div class="box3">
+                <p class="box3-header"><span>GET</span> UP-TO-DATE​ <br><span>NEWS</span> </p>
+                <p class="box3-subheader">WhaleBrain ensures you stay well-informed by ​delivering the latest news at your request, tailored ​to keep you updated effortlessly </p>
+                <img class="i3" src="3.svg" alt="i3">
+            </div>
+            <div class="box4">
+                <p class="box4-header"><span>RECEIVE</span> INSTANT <br><span>ANALYSIS</span> </p>
+                <p class="box4-subheader">WhaleBrain offers a comprehensive analysis of ​your selected coin, incorporating the latest news, ​pricing insights, and emerging trends </p>
+                <img class="i4" src="4.svg" alt="i4">
+            </div>
+            <div class="box5">
+                <p class="box5-header"><span>CREATE</span> CUSTOM <br>​TRACKING <span>LISTS</span> </p>
+                <p class="box5-subheader">Explore our curated selection of popular wallets and ​coins, and feel free to personalize your experience ​by crafting lists of addresses you wish to track </p>
+                <img class="i5" src="5.svg" alt="i5">
+            </div>
+        </div>
+    </section>
+
+    <section class="section4" id="section4">
+        <div class="container">
+            <h1 class="section4-title"><span>Contact</span> Us</h1>
+            <p class="section4-subtitle">Have any questions? You can reach out via email or directly in our bot. </p>
+            
+        </div>
+    </section>
     <script src="script.js"></script>
+    <script>
+        // Add event listener to the button
+        document.getElementById('tg-button-link').addEventListener('click', function() {
+            window.location.href = 'https://t.me/whalebrain_bot';
+        });
+    </script>
+    <section class="contact-section" id="contact-section">
+        <div class="container">
+            <h1 class="contact-title"><span>Contact</span> Us</h1>
+            <p class="contact-subtitle">Have any questions? Feel free to contact us using the form below:</p>
+            <a href="mailto:WhaleBraincs@gmail.com" class="email">WhaleBraincs@gmail.com </a>
+            <a href="https://t.me/whalebrain_bot" class="telegram">https://t.me/whalebrain_bot </a>
+            <img class="email-logo" src="email_logo.svg" alt="email logo">
+            <img class="tg-logo" src="tg_logo.svg" alt="tg logo">
+            <form action="process_contact.php" method="post" id="contact-form">
+                <label for="contact-name">Name:</label>
+                <input type="text" id="contact-name" name="contact-name" required>
+    
+                <label for="contact-email">Email:</label>
+                <input type="email" id="contact-email" name="contact-email" required>
+    
+                <label for="contact-message">Message:</label>
+                <textarea id="contact-message" name="contact-message" rows="4" required></textarea>
+    
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
 </body>
 </html>
