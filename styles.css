@@ -433,7 +433,7 @@ button:hover {
 
 @media only screen and (max-width: 768px) {
     .main-title {
-        font-size: 8vw;
+        font-size: 9vw;
     }
     body {
         overflow-x: hidden;
@@ -445,94 +445,97 @@ button:hover {
     }
 
     .circle {
-        width: 100vw;
-        left: 10vw;
+        width: 140vw;
+        left: -15vw;
         top: 40vw;
     }
 
     .iphone-mockup {
-        width: 50vw;
-        left: 35vw;
+        width: 70vw;
+        left: 20vw;
         top: 36vw;
     }
 
     .iphone2 {
-        width: 30vw;
+        width: 40vw;
         left: 15vw;
-        top: 30vw;
+        top: 40vw;
     }
 
     .shade {
-        width: 170vw;
-        left: 37vw;
-        top:8vw;
+        width: 160vw;
+        left: 40vw;
+        top:35vw;
     }
 
     .tg-button {
-        margin-top: 2em;
-        margin-left: 5em;
+        margin-top: 20vw;
+        margin-left: 70vw;
     }
 
     .section2-title {
-        font-size: 6vw;
+        font-size: 6.7vw;
         margin-left: 4vw;
-        margin-top: 80vw;
+        margin-top: 105vw;
     }
 
     .section2-subtitle {
-        font-size: 3vw;
+        font-size: 3.5vw;
         margin-left: 6vw;
         width: 70vw;
     }
 
     .tg-button {
         margin-top: 40vw;
-        margin-left: 55vw;
+        margin-left: 65vw;
+        width:30vw;
+        height: 15vw;
     }
 
     .section3-title {
         font-size: 6vw;
         margin-left: 31vw;
-        margin-top: 32vw;
+        margin-top: 52vw;
     }
 
     .section3-subtitle {
-        font-size: 2.8vw;
-        margin-left: 9vw;
-        width: 80vw;
+        font-size: 3.1vw;
+        margin-left: 2vw;
+        width: 90vw;
     }
 
     .box1,
     .box2   {
-        width: 38vw;
-        height:20vw;
+        width: 72vw;
+        height:30vw;
         top: 33vw;
         border-radius:2.5vw;
     }
     .box3,
     .box4,
     .box5 {
-        width: 38vw;
-        height:20vw;
+        width: 72vw;
+        height:30vw;
         border-radius:2.5vw;
     }
     .box1   {
-        left: -12vw;
+        left: -10vw;
     }
     .box2   {
-        left: 30vw;
+        left: -10vw;
+        top:190vw;
     }
     .box3   {
-        left: -12vw;
-        top:87vw;
+        left: -10vw;
+        top:110vw;
     }
     .box4   {
-        left: 10vw;
-        top: 60vw;
+        left: -10vw;
+        top: 150vw;
     }
     .box5   {
-        left: 30vw;
-        top: 87vw;
+        left: -10vw;
+        top: 70vw;
     }
     
     .box1-header,
@@ -542,7 +545,9 @@ button:hover {
     .box5-header {
             margin-top: 1.5vw; 
             margin-right:2.2vw;
-            font-size:3vw;
+            font-size:5vw;
+
+            width:70vw;
     }
     .box1-subheader,
     .box2-subheader,
@@ -552,14 +557,17 @@ button:hover {
             margin-top: -2vw; 
             margin-right:.2vw;
             border-radius:2vw;
-            width: 37vw;
-            font-size:2vw;
+            width: 70vw;
+            font-size:3vw;
             text-align:left;
+            
     }
     .i1,.i2,.i3,.i4,.i5{
 
         left:1vw;
-        top:1.6vw;
+        top:-2vw;
+        width: 25vw;
+        height: 22vw;
     }    
     .email,
     .telegram {
@@ -570,7 +578,7 @@ button:hover {
     .section4-title {
         font-size: 6vw;
         margin-left: 4vw;
-        margin-top: 100vw;
+        margin-top: 210vw;
     }
 
     .section4-subtitle {
