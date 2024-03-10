@@ -435,18 +435,18 @@ button:hover {
     .main-title {
         font-size: 9vw;
     }
-    body {
+     body {
         overflow-x: hidden;
     }
 
     .subtitle {
         font-size: 6.7vw;
-        width:90vw;
+        width:75vw;
     }
 
     .circle {
-        height: 4vw;
-        width: 8vw;
+        height: 400vw;
+        width: 82vw;
         left: 10vw;
         top: -125vw;
     }
@@ -465,8 +465,8 @@ button:hover {
 
     .shade {
         
-        height:2vw;
-        width:1vw;
+        height:200vw;
+        width:120vw;
         left: 65vw;
         top:-20vw;
     }
