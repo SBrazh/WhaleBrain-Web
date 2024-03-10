@@ -112,7 +112,7 @@ body {
     height: auto;
     position: absolute;
     top: 12.5vw;
-    margin-left: -89vw;
+    margin-left: -94vw;
     z-index: -1;
 }
 
@@ -444,13 +444,13 @@ button:hover {
 
     .circle {
         height: 400vw;
-        width: 88vw;
-        left: 2vw;
-        top: -110vw;
+        width: 82vw;
+        left: 10vw;
+        top: -125vw;
     }
 
     .iphone-mockup {
-        width: 67vw;
+        width: 63vw;
         left: 17vw;
         top: 40vw;
     }
