@@ -443,9 +443,10 @@ button:hover {
     }
 
     .circle {
-        width: 140vw;
-        left: -15vw;
-        top: 40vw;
+        height: 400vw;
+        width: 100vw;
+        left: 0vw;
+        top: -110vw;
     }
 
     .iphone-mockup {
@@ -461,9 +462,11 @@ button:hover {
     }
 
     .shade {
-        width: 160vw;
-        left: 40vw;
-        top:35vw;
+        
+        height:200vw;
+        width:120vw;
+        left: 65vw;
+        top:-20vw;
     }
 
     .tg-button {
