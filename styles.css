@@ -445,8 +445,8 @@ button:hover {
     }
 
     .circle {
-        height: 400vw;
-        width: 82vw;
+        height: 4vw;
+        width: 8vw;
         left: 10vw;
         top: -125vw;
     }
@@ -465,8 +465,8 @@ button:hover {
 
     .shade {
         
-        height:200vw;
-        width:120vw;
+        height:2vw;
+        width:1vw;
         left: 65vw;
         top:-20vw;
     }
