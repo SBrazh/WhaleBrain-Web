@@ -435,7 +435,9 @@ button:hover {
     .main-title {
         font-size: 9vw;
     }
- 
+    body {
+        overflow-x: hidden;
+    }
 
     .subtitle {
         font-size: 6.7vw;
