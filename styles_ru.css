@@ -59,9 +59,10 @@ body {
 .subtitle {
     color: rgb(127, 15, 255);
     font-size: 3vw;
-    margin-top: 0.2vw;
-    margin-left: 12vw;
-    width: 50vw;
+    margin-top: -2vw;
+    margin-left: 10vw;
+    width: 65vw;
+    text-align: left;
 }
 
 .circle {
@@ -126,7 +127,6 @@ body {
     margin-top: 15vw;
     margin-left: 58vw;
     z-index: 5;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .iphone2 {
@@ -143,7 +143,7 @@ body {
     height: auto;
     position: absolute;
     top: 12.5vw;
-    margin-left: -94vw;
+    margin-left: -89vw;
     z-index: -1;
 }
 
@@ -439,8 +439,6 @@ body {
     #english-btn {
         z-index: 2; /* Set a higher z-index value to bring the button to the top layer */
     }
-    
-    
     .flag-button {
         margin-left: 1vw; /* Adjust the left margin to create space between flags */
         margin-top: 2vw; /* Adjust the top margin to move the flags slightly lower */
@@ -454,7 +452,6 @@ body {
     .flag-button:focus {
         outline: none; /* Remove focus outline */
     }
-
     .subtitle {
         font-size: 6.7vw;
         width:75vw;

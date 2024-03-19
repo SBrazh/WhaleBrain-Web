@@ -5,10 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <link rel="stylesheet" href="styles.css">
-    <title>Simple Website</title>
+    <title>WhaleBrain</title>
 </head>
 <body>
-
+    <div class="language-selector">
+        <button id="english-btn" class="flag-button" data-lang="en">
+            <img src="US_Flag.png" alt="US Flag">
+        </button>
+        <button id="russian-btn" class="flag-button" data-lang="ru">
+            <img src="RUS_Flag.png" alt="Russian Flag">
+        </button>
+    </div>
     <section class="landing-section" id="section1">
         <div class="container">
             <h1 class="main-title">WHALEBRAIN</h1>
@@ -66,7 +73,7 @@
     </section>
     <script src="script.js"></script>
     <script>
-        // Add event listener to the button
+
         document.getElementById('tg-button-link').addEventListener('click', function() {
             window.location.href = 'https://t.me/whalebrain_bot';
         });
@@ -74,24 +81,12 @@
         <section class="section4" id="section4">
             <div class="container">
                 <h1 class="section4-title"><span>Contact</span> Us</h1>
-            <p class="section4-subtitle">Have any questions? Feel free to contact us using the form below:</p>
+            <p class="section4-subtitle">Have any questions? Feel free to contact us through our bot or email</p>
             <a href="mailto:WhaleBraincs@gmail.com" class="email">WhaleBraincs@gmail.com </a>
             <a href="https://t.me/whalebrain_bot" class="telegram">https://t.me/whalebrain_bot </a>
             <img class="email-logo" src="email_logo.svg" alt="email logo">
             <img class="tg-logo" src="tg_logo.svg" alt="tg logo">
-            <form action="process_contact.php" method="post" id="contact-form">
-                <label for="contact-name">Name:</label>
-                <input type="text" id="contact-name" name="contact-name" required>
-    
-                <label for="contact-email">Email:</label>
-                <input type="email" id="contact-email" name="contact-email" required>
-    
-                <label for="contact-message">Message:</label>
-                <textarea id="contact-message" name="contact-message" rows="4" required></textarea>
-    
-                <button type="submit">Submit</button>
-            </form>
-        </div>
+            </div>
     </section>
 </body>
 </html>
